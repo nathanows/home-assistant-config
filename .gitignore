@@ -2,10 +2,12 @@
 .storage
 .cloud
 .google.token
+.vscode
 
 *.db
 *.log
 *.conf
+update-home-assistant.sh
 
 # Ensure these YAML files are ignored, otherwise your secret data/credentials will leak.
 ip_bans.yaml
