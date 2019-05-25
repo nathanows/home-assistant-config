@@ -1,0 +1,13 @@
+# Ignore folders.
+.storage
+.cloud
+.google.token
+
+*.db
+*.log
+*.conf
+
+# Ensure these YAML files are ignored, otherwise your secret data/credentials will leak.
+ip_bans.yaml
+secrets.yaml
+known_devices.yaml
